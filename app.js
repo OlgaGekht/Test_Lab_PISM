@@ -13,5 +13,7 @@ class User {
 
 }
 
-let user = new User("Оля", 19);
+const user = new User("Оля", 19);
+const userMan = new User("Дима", 19)
 user.say(); // Оля
+userMan.say(); //Дима
